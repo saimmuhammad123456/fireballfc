@@ -1,0 +1,25 @@
+<div id="login-screen">
+    <img src="path/to/your-logo.png" alt="FIREBALLFC Logo" style="width: 150px; height: auto; margin-bottom: 20px;">
+    <h1>Welcome to FIREBALLFC</h1>
+    <p>Please enter your username and password to continue:</p>
+    
+    <input type="text" id="username-input" placeholder="Enter Username">
+    <input type="password" id="password-input" placeholder="Enter Password">
+    
+    <button id="submit-button">Submit</button>
+    <p id="error-message" style="color: red;"></p>
+</div>
+
+<div id="content-screen" style="display: none;">
+    <h2>Football Match Update</h2>
+    <p>Are you attending the match on <span id="day-display"></span>?</p>
+    
+    <button class="response-button" id="accept-button">Accept</button>
+    <button class="response-button" id="decline-button">Don't Accept</button>
+    <button id="logout-button">Log Out</button>
+    
+    <div id="response-list">
+        <h3>Responses</h3>
+        <ul id="responses"></ul>
+    </div>
+</div>
